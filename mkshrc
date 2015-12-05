@@ -7,7 +7,7 @@
 # Support: https://launchpad.net/mksh
 
 : ${HOME:=/data}
-: ${HOSTNAME:=$(getprop ro.cm.device)}
+: ${HOSTNAME:=$(getprop ro.aokp.device)}
 : ${MKSH:=/system/bin/sh}
 : ${SHELL:=$MKSH}
 : ${TERM:=linux}
